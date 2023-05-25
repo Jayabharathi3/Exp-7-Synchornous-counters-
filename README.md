@@ -1,12 +1,12 @@
 # Exp-6-Synchornous-counters - up counter and down counter 
 
-### AIM: To implement 4 bit up and down counters and validate  functionality.
+## AIM: To implement 4 bit up and down counters and validate  functionality.
 
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
+## HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 
-### SOFTWARE REQUIRED:   Quartus prime
+## SOFTWARE REQUIRED:   Quartus prime
 
-### THEORY 
+## THEORY 
 
 ## UP COUNTER 
 The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
@@ -51,7 +51,7 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 4-bit Count Down Counter
 
 
-### Procedure
+## Procedure
 
 ```
 1.Create a new project in QuartusII software.
@@ -64,13 +64,14 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 8.End the module.
 
 ```
-### PROGRAM 
+## PROGRAM 
+```
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: JAYABHARATHI . S
 RegisterNumber:  212222100013
 */
-```
+
 
 ## UP COUNTER
 
@@ -92,42 +93,42 @@ endmodule
 
 
 ```
-### RTL LOGIC
+## RTL LOGIC
 
-## UP COUNTER
+### UP COUNTER
 
 ![syupnv](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/59c9ea41-d366-48e9-8e87-fbb577e6c645)
 
 
-## DOWN COUNTER
+### DOWN COUNTER
 
 
 
 
-### TIMING DIGRAMS FOR COUNTER  
+## TIMING DIGRAMS FOR COUNTER  
 
-## UP COUNTER
+### UP COUNTER
 
 ![syuptl](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/961a8afb-9ffc-4c8e-aca8-8e5fe0047e8c)
 
 
-## DOWN COUNTER
+### DOWN COUNTER
 
 
 
-### TRUTH TABLE 
+## TRUTH TABLE 
 
 
-## UP COUNTER
+### UP COUNTER
 
 ![SYUPTT](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/9369055d-615d-49ba-ba8f-4c0e5554a1b4)
 
 
-## DOWN COUNTER
+### DOWN COUNTER
 
 ![sydntt](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/bb28b117-6684-4410-a74b-14f15032aa89)
 
 
-### RESULTS 
+## RESULTS 
 
 Thus Synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
