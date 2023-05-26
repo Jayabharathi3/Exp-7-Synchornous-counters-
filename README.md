@@ -102,6 +102,7 @@ endmodule
 
 ### DOWN COUNTER
 
+![sydnnv](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/741ab118-cd11-4390-af7c-32fee512b49e)
 
 
 
@@ -109,10 +110,16 @@ endmodule
 
 ### UP COUNTER
 
+
 ![syuptl](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/961a8afb-9ffc-4c8e-aca8-8e5fe0047e8c)
 
 
+
 ### DOWN COUNTER
+
+
+![sydntd](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/bf7b9d53-b8e4-412d-99d4-25e549bb0a19)
+
 
 
 
