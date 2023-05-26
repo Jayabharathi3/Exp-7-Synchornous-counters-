@@ -87,6 +87,8 @@ end
 endmodule
 
 
+
+
 ## DOWN COUNTER
 
 module down(input clk,input reset,output[0:3]counter);
@@ -103,12 +105,12 @@ endmodule
 
 
 ```
+
 ## RTL LOGIC
 
 ### UP COUNTER
 
 ![syupnv](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/59c9ea41-d366-48e9-8e87-fbb577e6c645)
-
 
 ### DOWN COUNTER
 
@@ -120,7 +122,6 @@ endmodule
 
 ### UP COUNTER
 
-
 ![syuptl](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/961a8afb-9ffc-4c8e-aca8-8e5fe0047e8c)
 
 
@@ -131,10 +132,7 @@ endmodule
 ![sydntd](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/bf7b9d53-b8e4-412d-99d4-25e549bb0a19)
 
 
-
-
 ## TRUTH TABLE 
-
 
 ### UP COUNTER
 
