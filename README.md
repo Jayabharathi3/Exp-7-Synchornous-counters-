@@ -125,23 +125,26 @@ endmodule
 
 ### UP COUNTER
 
-
+![ttup](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/28cd53e7-0c8d-424f-acfa-4e8ef39623ad)
 
 
 ### DOWN COUNTER
 
+![ttd](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/d6958480-bc7e-47d8-903d-48a0fedac82b)
 
 
 ## TRUTH TABLE 
 
 ### UP COUNTER
 
-![SYUPTT](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/9369055d-615d-49ba-ba8f-4c0e5554a1b4)
+![trup](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/39c7a397-c5d8-4a12-8c9d-1dd9bad45e66)
+
 
 
 ### DOWN COUNTER
 
-![sydntt](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/bb28b117-6684-4410-a74b-14f15032aa89)
+![trd](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/6bda1118-d1fc-49cf-bc86-7c7d0b3843c2)
+
 
 
 ## RESULTS 
