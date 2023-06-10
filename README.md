@@ -75,14 +75,15 @@ RegisterNumber:  212222100013
 
 ## UP COUNTER
 
-module sync(clk,A);
+module upc(clk,A);
 input clk;
-output reg [0:2]A;
+output reg[0:3]A;
 always@(posedge clk)
 begin
-   A[0]=(((A[1])&(A[2]))^A[0]);
-	A[1]=(A[2])^A[1];
-	A[2]=1^A[2];
+		A[0]=((((A[1])&(A[2]))&A[3])^A[0]);
+		A[1]=(((A[2])&(A[3]))^A[1]);
+		A[2]=((A[3])^A[2]);
+		A[3]=1^A[3];
 end
 endmodule
 
@@ -91,16 +92,16 @@ endmodule
 
 ## DOWN COUNTER
 
-module down(input clk,input reset,output[0:3]counter);
-reg[0:3] counter_down;
-always@(posedge clk or posedge reset)
+module downc(clk,A);
+input clk;
+output reg[0:3]A;
+always@(posedge clk)
 begin
-if(reset)
-counter_down<=4'd0;
-else
-counter_down<=counter_down-4'd1;
+	A[0]=((((~A[1])&(~A[2]))&(~A[3]))^A[0]);
+	A[1]=(((~A[2])&(~A[3]))^A[1]);
+	A[2]=((~A[3])^A[2]);
+	A[3]=1^A[3];
 end
-assign counter=counter_down;
 endmodule
 
 
@@ -110,11 +111,13 @@ endmodule
 
 ### UP COUNTER
 
-![syupnv](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/59c9ea41-d366-48e9-8e87-fbb577e6c645)
+![syup](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/21c0582e-7d8f-4c2a-8385-45181da60381)
+
+
 
 ### DOWN COUNTER
 
-![sydnnv](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/741ab118-cd11-4390-af7c-32fee512b49e)
+![syd](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/f4a61e63-5a23-476d-97ab-b9719509f817)
 
 
 
@@ -122,14 +125,11 @@ endmodule
 
 ### UP COUNTER
 
-![syuptl](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/961a8afb-9ffc-4c8e-aca8-8e5fe0047e8c)
 
 
 
 ### DOWN COUNTER
 
-
-![sydntd](https://github.com/Jayabharathi3/Exp-7-Synchornous-counters-/assets/120367796/bf7b9d53-b8e4-412d-99d4-25e549bb0a19)
 
 
 ## TRUTH TABLE 
